@@ -1,7 +1,7 @@
 define({ "api": [
   {
     "type": "POST",
-    "url": "/department/",
+    "url": "/departments/",
     "title": "Crate Department",
     "name": "CreateDepartment",
     "group": "Department",
@@ -250,7 +250,7 @@ define({ "api": [
   },
   {
     "type": "PUT",
-    "url": "/employee/:id/changePassword",
+    "url": "/employees/:id/changePassword",
     "title": "Change Employee's Password",
     "name": "ChangePassword",
     "group": "Employee",
@@ -301,7 +301,7 @@ define({ "api": [
   },
   {
     "type": "GET",
-    "url": "/employee/:id",
+    "url": "/employees/:id",
     "title": "Get an Employee",
     "name": "GetEmployee",
     "group": "Employee",
@@ -411,7 +411,7 @@ define({ "api": [
   },
   {
     "type": "DELETE",
-    "url": "/employee/:id",
+    "url": "/employees/:id",
     "title": "Delete an Employee",
     "name": "RemoveEmployee",
     "group": "Employee",
@@ -442,7 +442,7 @@ define({ "api": [
   },
   {
     "type": "GET",
-    "url": "/employee/search/:str",
+    "url": "/employees/search/:str",
     "title": "Search an Employee",
     "name": "SearchEmployee",
     "group": "Employee",
@@ -473,7 +473,7 @@ define({ "api": [
   },
   {
     "type": "PUT",
-    "url": "/employee/:id",
+    "url": "/employees/:id",
     "title": "Update an Employee",
     "name": "UpdateEmployee",
     "group": "Employee",
@@ -573,7 +573,7 @@ define({ "api": [
   },
   {
     "type": "PUT",
-    "url": "/employee/:id/pic",
+    "url": "/employees/:id/pic",
     "title": "Upload Employee's Picture",
     "name": "UploadPicture",
     "group": "Employee",
