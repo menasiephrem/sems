@@ -617,7 +617,7 @@
   },
   {
     "type": "POST",
-    "url": "/user/login",
+    "url": "/users/login",
     "title": "User Login",
     "name": "LoginUser",
     "group": "User",
@@ -644,7 +644,7 @@
       "examples": [
         {
           "title": "Request Example:",
-          "content": "{\n\t\"username\": \"mamit@mamo.com\",\n\t\"password\": \"password\",\n}",
+          "content": "{\n\t\"email\": \"mamit@mamo.com\",\n\t\"password\": \"password\",\n}",
           "type": "json"
         }
       ]
@@ -682,7 +682,7 @@
   },
   {
     "type": "POST",
-    "url": "/user/signup",
+    "url": "/users/signup",
     "title": "User Signup",
     "name": "SignupUser",
     "group": "User",
