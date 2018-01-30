@@ -330,7 +330,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Request Example:",
-          "content": "{\n    \"email\": \"test@email.com\",\n    \"employee_id\": \"ATR_4805\",\n    \"first_name\": \"Mamo\",\n    \"last_name\": \"Dude\",\n    \"phone_number\": 912476374,\n    \"salary\": 7500,\n    \"starting_date\": \"2018-01-16T08:34:41.512Z\",\n    \"picture\": \"\",\n    \"active\": true,\n    \"sex\": true\n}",
+          "content": "{\n    \"email\": \"test@email.com\",\n    \"employee_id\": \"ATR_4805\",\n    \"first_name\": \"Mamo\",\n    \"last_name\": \"Dude\",\n    \"phone_number\": 912476374,\n    \"salary\": 7500,\n    \"starting_date\": \"2018-01-16T08:34:41.512Z\",\n    \"picture\": \"\",\n    \"active\": true,\n    \"sex\": 1\n}",
           "type": "json"
         }
       ]
@@ -339,7 +339,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Response Example:",
-          "content": " HTTP/1.1 201 Created\n{\n    \"_id\": \"5a7051aa192e5a1af241855e\",\n    \"last_modified\": \"2018-01-30T11:06:18.898Z\",\n    \"date_created\": \"2018-01-30T11:06:18.898Z\",\n    \"email\": \"test@email.com\",\n    \"employee_id\": \"ATR_4805\",\n    \"first_name\": \"Mamo\",\n    \"last_name\": \"Dude\",\n    \"phone_number\": 912476374,\n    \"salary\": 7500,\n    \"starting_date\": \"2018-01-16T08:34:41.512Z\",\n    \"picture\": \"\",\n    \"active\": true,\n    \"sex\": true\n}",
+          "content": " HTTP/1.1 201 Created\n{\n    \"_id\": \"5a7051aa192e5a1af241855e\",\n    \"last_modified\": \"2018-01-30T11:06:18.898Z\",\n    \"date_created\": \"2018-01-30T11:06:18.898Z\",\n    \"email\": \"test@email.com\",\n    \"employee_id\": \"ATR_4805\",\n    \"first_name\": \"Mamo\",\n    \"last_name\": \"Dude\",\n    \"phone_number\": 912476374,\n    \"salary\": 7500,\n    \"starting_date\": \"2018-01-16T08:34:41.512Z\",\n    \"picture\": \"\",\n    \"active\": true,\n    \"sex\": 1\n}",
           "type": "json"
         }
       ]
