@@ -300,6 +300,55 @@
     "groupTitle": "Employee"
   },
   {
+    "type": "POST",
+    "url": "/employees/",
+    "title": "Crate Employee",
+    "name": "CreateEmployee",
+    "group": "Employee",
+    "description": "<p>Create a new Employee</p>",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "Authorization",
+            "description": "<p>Bearer + {token} a required header for all the API end-points. The token can be found form the login end point</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Header-Example:",
+          "content": "{\n  \"Authorization\": \"Bearer HrAuoeKL2NtpG9tRKkZ/J0vjDZu1psZneK8bKpdO6Ps8x5BXFsA9oMnSD4GCnxk9oWD2u3cmokj7\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "parameter": {
+      "examples": [
+        {
+          "title": "Request Example:",
+          "content": "{\n    \"email\": \"test@email.com\",\n    \"employee_id\": \"ATR_4805\",\n    \"first_name\": \"Mamo\",\n    \"last_name\": \"Dude\",\n    \"phone_number\": 912476374,\n    \"salary\": 7500,\n    \"starting_date\": \"2018-01-16T08:34:41.512Z\",\n    \"picture\": \"\",\n    \"active\": true,\n    \"sex\": true\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "Response Example:",
+          "content": " HTTP/1.1 201 Created\n{\n    \"_id\": \"5a7051aa192e5a1af241855e\",\n    \"last_modified\": \"2018-01-30T11:06:18.898Z\",\n    \"date_created\": \"2018-01-30T11:06:18.898Z\",\n    \"email\": \"test@email.com\",\n    \"employee_id\": \"ATR_4805\",\n    \"first_name\": \"Mamo\",\n    \"last_name\": \"Dude\",\n    \"phone_number\": 912476374,\n    \"salary\": 7500,\n    \"starting_date\": \"2018-01-16T08:34:41.512Z\",\n    \"picture\": \"\",\n    \"active\": true,\n    \"sex\": true\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "routes/employee.js",
+    "groupTitle": "Employee"
+  },
+  {
     "type": "GET",
     "url": "/employees/:id",
     "title": "Get an Employee",
