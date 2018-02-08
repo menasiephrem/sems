@@ -2,7 +2,7 @@ define({
   "name": "SEMS API",
   "version": "1.0.0",
   "description": "An API for SMES",
-  "url": "http://178.62.247.200:7900",
+  "url": "https://sems-api.herokuapp.com/employees/",
   "order": [
     "User",
     "Employees",
@@ -13,7 +13,7 @@ define({
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2018-02-05T14:16:53.303Z",
+    "time": "2018-02-08T14:06:55.796Z",
     "url": "http://apidocjs.com",
     "version": "0.17.6"
   }
